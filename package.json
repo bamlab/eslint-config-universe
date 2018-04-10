@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-universe",
+  "name": "eslint-config-universe-error",
   "version": "1.0.7",
   "description": "Shared ESLint configs for Node, Web, React Native, and Expo projects",
   "main": "default.js",

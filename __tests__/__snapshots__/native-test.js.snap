@@ -99,7 +99,7 @@ export default class Example extends React.Component {
 
 exports[`lints with the React Native config: fixtures/web-native-01.js 1`] = `
 Object {
-  "errorCount": 0,
+  "errorCount": 1,
   "fixableErrorCount": 0,
   "fixableWarningCount": 0,
   "messages": Array [
@@ -111,7 +111,7 @@ Object {
       "message": "Do not use setState in componentDidMount",
       "nodeType": "MemberExpression",
       "ruleId": "react/no-did-mount-set-state",
-      "severity": 1,
+      "severity": 2,
       "source": "    this.setState({});",
     },
   ],
@@ -130,7 +130,7 @@ export default class Example extends React.Component {
   }
 }
 ",
-  "warningCount": 1,
+  "warningCount": 0,
 }
 `;
 

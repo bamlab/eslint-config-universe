@@ -1,5 +1,11 @@
-# eslint-config-universe [![CircleCI](https://circleci.com/gh/expo/eslint-config-universe.svg?style=svg)](https://circleci.com/gh/expo/eslint-config-universe)
+# eslint-config-universe-error [![CircleCI](https://circleci.com/gh/expo/eslint-config-universe.svg?style=svg)](https://circleci.com/gh/expo/eslint-config-universe)
 Shared ESLint configs for Node, Web, React Native, and Expo projects.
+
+## Diff from eslint-config-universe
+
+The original package eslint-config-universe is based on trust that everyone will fix their work and eslint warnings before commiting.
+
+But as this is not always the case, this repo switches every rule from warning to error in order to prevent a CI from validating incorrectly styled code.
 
 ## Installation
 

@@ -12,6 +12,6 @@ module.exports = {
   extends: ['prettier', 'prettier/flowtype', 'prettier/react'],
   plugins: ['prettier'],
   rules: {
-    'prettier/prettier': ['warn', readPrettierConfig() || defaultPrettierConfig],
+    'prettier/prettier': ['error', readPrettierConfig() || defaultPrettierConfig],
   },
 };
