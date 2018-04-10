@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/expo/eslint-config-universe.git"
+    "url": "git+https://github.com/bamlab/eslint-config-universe-error.git"
   },
   "keywords": [
     "eslint-config",
@@ -32,12 +32,12 @@
   "eslintIgnore": [
     "/__tests__/fixtures/*"
   ],
-  "author": "Expo",
+  "author": "BAM",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/expo/eslint-config-universe/issues"
+    "url": "https://github.com/bamlab/eslint-config-universe-error/issues"
   },
-  "homepage": "https://github.com/expo/eslint-config-universe#readme",
+  "homepage": "https://github.com/bamlab/eslint-config-universe-error#readme",
   "dependencies": {
     "babel-eslint": "^8.2.1",
     "eslint-config-prettier": "^2.3.0",
